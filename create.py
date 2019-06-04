@@ -2,10 +2,12 @@ import sys
 import os
 from github import Github
 
+# Path to the folder you want to store projects in
 path = "~/Desktop/Programming/Projects/"
 
-username = "JSLeadbetter"
-password = "88c70d451b17f9be8378959014501974100c41e5"
+# Enter your Github username and password here
+username = ""
+password = ""
 
 def create():
     user = Github(username, password).get_user()

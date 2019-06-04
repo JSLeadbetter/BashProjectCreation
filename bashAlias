@@ -4,7 +4,7 @@ function create() {
     cd $1
     python3 ~/python_scripts/create.py $1
     git init
-    git remote add origin https://github.com/JSLeadbetter/$1.git
+    git remote add origin https://github.com/<username>/$1.git
     git remote -v
     touch README.md
     git add .
